@@ -75,6 +75,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/who.html %}
 {% endif %}
+This workshop is open only to members of the University of Michigan community.
 
 {% comment %}
   LOCATION
