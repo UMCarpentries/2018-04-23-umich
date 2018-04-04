@@ -75,6 +75,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/who.html %}
 {% endif %}
+<strong>You must have a valid University of Michigan uniqname and password to register for the event.</strong>
 
 {% comment %}
   LOCATION
@@ -155,6 +156,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="photos">
 	<strong>Photography</strong>:
 	Photographs may be taken during the event for use in UM-SWC's promotional materials. Participants may opt in to being photographed by signing a waiver on the day of the event.
+</p>
+
+<p id="registration">
+	<strong>Registration</strong>:
+	To register for the workshop, visit our TTC registration page: <a href="https://ttc.iss.lsa.umich.edu/ttc/sessions/software-carpentry-workshop-shell-r-git/">https://ttc.iss.lsa.umich.edu/ttc/sessions/software-carpentry-workshop-shell-r-git/</a>.
 </p>
 
 {% comment %}
